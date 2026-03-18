@@ -8,10 +8,10 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Load the placement dataset, convert the target variable (Placed / Not Placed) into binary form, select SSC percentage and MBA percentage as features, and normalize the feature values.
+2.Add a bias term to the input data, initialize model parameters (theta), learning rate, and number of iterations.
+3.For each iteration, compute predictions using the sigmoid function, calculate the cost function, compute gradients, and update parameters using gradient descent.
+4.Predict the placement status, calculate the accuracy of the model, and plot the cost versus iterations graph.
 
 ## Program:
 ```
@@ -67,6 +67,7 @@ print("\nPredicted Salary for 5 years experience:", predicted_salary[0])
 ```
 
 ## Output:
+<img width="833" height="769" alt="Screenshot 2026-03-18 152811" src="https://github.com/user-attachments/assets/b8382ab6-f244-4f3f-80ff-0351a9651f8f" />
 
 
 
