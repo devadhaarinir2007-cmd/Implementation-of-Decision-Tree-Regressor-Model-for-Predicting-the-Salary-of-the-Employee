@@ -9,8 +9,11 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Algorithm
 1.Load the placement dataset, convert the target variable (Placed / Not Placed) into binary form, select SSC percentage and MBA percentage as features, and normalize the feature values.
+
 2.Add a bias term to the input data, initialize model parameters (theta), learning rate, and number of iterations.
+
 3.For each iteration, compute predictions using the sigmoid function, calculate the cost function, compute gradients, and update parameters using gradient descent.
+
 4.Predict the placement status, calculate the accuracy of the model, and plot the cost versus iterations graph.
 
 ## Program:
